@@ -3,7 +3,7 @@ import requests
 import sys
 
 def shorten_link(full_link, link_name):
-    API_KEY = '725e9074938c6c23a058f873407195e496cae'
+    API_KEY = 'Enter your API_KEY'
     BASE_URL = 'https://cutt.ly/api/api.php'
     
     Payload = {'key': API_KEY, 'short': full_link, 'name': link_name}
